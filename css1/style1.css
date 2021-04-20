@@ -1,0 +1,49 @@
+
+.mission-text{
+	width: 170px;
+	position: absolute;
+	opacity: 0;
+	font-size: 11px;
+}
+#menu-item-1351:hover .mission-text{
+	opacity: 1;
+}
+.menu{
+	color: black;
+}
+@media  screen and (max-width: 1000px){
+	.menu{
+		color: white;
+	}
+	.c-menu-toggle__slice{
+		color: black;
+	}
+	
+}
+.menu-top{
+	padding-top: 95px;
+	padding-bottom: 100px;
+
+
+}
+.menubig{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	padding-top: 0px;
+	padding-bottom: 15px;
+}
+.menuone{
+	width: 95%;
+	position: relative;
+	padding-top: 15px;
+}
+	
+.menumax{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.c-headline__secondary {
+	font-size: 40px;
+	
+}
